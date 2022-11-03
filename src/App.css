@@ -1,17 +1,2 @@
-nav{
-  background-color:black;
-  display: flex;
-  flex-direction:row;
-  height: 10vh;
-  align-items: center;
-  justify-content: center;
-  
-  
-}
-nav a {
-   font-size: 25px;
-   text-decoration: none;
-   margin-right: 120px;
-   font-weight: 700;
-   color: white;
-}
+
+
