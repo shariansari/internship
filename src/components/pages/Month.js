@@ -1,5 +1,8 @@
 import React from 'react'
-import {Card} from "react-bootstrap"
+import Card from 'react-bootstrap/Card';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+
 
 function Month() {
   const cardInfo = [
@@ -38,18 +41,22 @@ function Month() {
   
   ];
   return (
-    <div className="container">
-    <div className="row">
-   {cardInfo.map((item,i) => {
-       return  <div className="col-4  mt-3" > <Card  style={{ width: "18rem" }} key={i}>
-          <Card.Img  variant="top" src={item.image} />
-          <Card.Body className='text-center' >
-            <Card.Title className='text-primary' >{item.title}</Card.Title>
-            <Card.Text>{item.text}</Card.Text>
-          </Card.Body>
-        </Card></div>
-      })}
-    </div>
+    <div>
+         <Row xs={1} md={3} className="g-4">
+      {cardInfo.map((item, idx) => (
+        <Col> 
+          <Card className='container mt-3 p-4' key={idx}  style={{backgroundColor:"lightgrey"}}>
+            <Card.Img variant="top" src={item.image} />
+            <Card.Body className='text-center'>
+              <Card.Title className='text-primary'>{item.title}</Card.Title>
+              <Card.Text>
+              {item.text}
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+      ))}
+    </Row>
     </div>
   )
 }
