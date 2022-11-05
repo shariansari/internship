@@ -7,7 +7,7 @@ import {NavLink} from "react-router-dom"
 function Header() {
   return (
     <div>
-      <Navbar bg="Primary " expand="lg" style={{backgroundColor:"rgb(114 209 170 / 55%)"}}>
+      <Navbar bg="Primary " expand="lg" style={{backgroundColor:"rgb(114 209 170 / 55%)",border:"1px solid black"}}>
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav " />
           <Navbar.Collapse id="basic-navbar-nav">
