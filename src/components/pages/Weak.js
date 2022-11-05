@@ -40,12 +40,14 @@ function Weak() {
   
   ];
   return (
-    <div>
+    <div className='colour mt-4'>
+    <div className='container'>
+      <div>
         <Row xs={1} md={3} className="g-4">
       {cardInfo.map((item, idx) => (
         <Col> 
-          <Card className='container mt-3 p-4' key={idx}  style={{backgroundColor:"lightgrey"}} >
-            <Card.Img variant="top" src={item.image} />
+          <Card className='container mt-3 p-4 shadow p-3 mb-5 bg-body rounded' key={idx}  style={{backgroundColor:"lightgrey"}} >
+            <Card.Img variant="top" src={item.image}/>
             <Card.Body className='text-center'>
               <Card.Title className='text-primary'>{item.title}</Card.Title>
               <Card.Text>
@@ -56,6 +58,8 @@ function Weak() {
         </Col>
       ))}
     </Row>
+    </div>
+    </div>
     </div>
    
   )
