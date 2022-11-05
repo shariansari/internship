@@ -6,27 +6,27 @@ import Row from 'react-bootstrap/Row';
 function Weak() {
   const cardInfo = [
     {
-      image: "https:/source.unsplash.com/random/200x200/?boy",
+      image: "https:/source.unsplash.com/random/200x200/?table",
       title: "Akash",
       text: "Top First",
     },
     {
-      image: "https:/source.unsplash.com/random/200x200/?girl",
+      image: "https:/source.unsplash.com/random/200x200/?mirror",
       title: "Anshika",
       text: "Top Second",
     },
     {
-      image: "https:/source.unsplash.com/random/200x200/?lady",
+      image: "https:/source.unsplash.com/random/200x200/?door",
       title: "lavina",
       text: "Top Third",
     },
     {
-      image: "https:/source.unsplash.com/random/200x200/?Men",
+      image: "https:/source.unsplash.com/random/200x200/?handle",
       title: "Noor",
       text: "Top Fourth",
     },
     {
-      image: "https:/source.unsplash.com/random/200x200/?teacher",
+      image: "https:/source.unsplash.com/random/200x200/?car",
       title: "Rubika",
       text: "Top Fifth",
     },
@@ -40,7 +40,7 @@ function Weak() {
   
   ];
   return (
-    <div className='colour mt-4'>
+    <div className='colour mt-5'>
     <div className='container'>
       <div>
         <Row xs={1} md={3} className="g-4">
