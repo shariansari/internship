@@ -1,7 +1,7 @@
 
 .active{
     
-     background-color:grey;
+    color:blue !important;
     text-decoration: none;
     padding: 15px;
     border-radius: 20px;
