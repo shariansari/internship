@@ -50,7 +50,7 @@ function Weak() {
             <Card.Img variant="top" src={item.image}/>
             <Card.Body className='text-center'>
               <Card.Title className='text-primary'>{item.title}</Card.Title>
-              <Card.Text>
+              <Card.Text style={{fontWeight:"700"}}>
               {item.text}
               </Card.Text>
             </Card.Body>
