@@ -23,11 +23,8 @@
     --_p: 100%
 }
 .colour{
-    background-color:lightpink;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(65, 123, 231));
 }
-
-
-/* /// */
 
 
 
